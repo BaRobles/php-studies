@@ -53,3 +53,37 @@ echo $number; // 12
 // aí sim vai mostrar que houve o incremento
 
 // EM RESUMO: o pré-incrmento será implementado na hora, e o pós incremento será implementado depois 
+
+// verifica se o valor é igual '50' == 50 >>> true
+// === se o valor é igual e o tipo é igual '50' == 50 >>> false
+
+// FALSY
+// null
+// 0
+// 0.0
+// "0"
+// """
+// array()
+
+
+$name = 'Bárbara';
+
+switch ($name){
+  case 'Joana':
+    echo 'É Joana';
+    break;
+  case 'Bruna':
+    echo 'É Bruna'; 
+    break;
+  case 'Bárbara':
+    echo 'É Bárbara';
+    break;
+  default:
+  echo 'Não é nenhum';
+  break;
+}
+
+$frase = 'Ola, meu nome é Bárbara.';
+
+echo substr($frase, 0, 10); // Ola, meu n (exclui o 10º caracter. Se colocar "á", ele conta como 2 caracteres.
+
