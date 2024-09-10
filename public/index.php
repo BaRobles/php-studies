@@ -77,3 +77,10 @@ $user = new User;
 // passando um objeto com parâmetros para call_user_func
 echo call_user_func([$user, 'userTeste'], 'Joaquim', 98); // Oiee, meu nome é Joaquim!
 
+// VERIFICANDO VARIÁVEIS EXISTENTES
+
+echo " Tem user? ";
+echo isset($user); // 1
+echo " Tem name? ";
+$person = ['name' => 'Alexandre', 'age' => 39];
+echo isset($person['name']); // 1
